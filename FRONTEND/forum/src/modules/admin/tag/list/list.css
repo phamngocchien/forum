@@ -1,0 +1,9 @@
+.truncate-config { 
+  width:100%;
+  white-space: pre-wrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+   display: -webkit-box;
+}

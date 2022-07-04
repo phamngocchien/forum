@@ -1,0 +1,14 @@
+.notificaton {
+  min-height: 40vh;
+  max-height: 70vh;
+}
+.content {
+  width: 99%;
+  height: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-align: left;
+  overflow: hidden;
+  font-size: 16px;
+}

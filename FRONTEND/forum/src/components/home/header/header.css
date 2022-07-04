@@ -1,0 +1,26 @@
+.Header_link {
+ font-size: 16px;
+ position: relative;
+ text-transform: none;
+ color: white;
+}
+.Header_link::before {
+ content: "";
+ position: absolute;
+ width: 0;
+ height: 2px;
+ bottom: -2px;
+ left: 0;
+ border-radius: 3px;
+ background-color: rgb(255, 255, 255);
+ visibility: "hidden";
+ transition: all 0.3s ease-in-out;
+}
+.Header_link:hover::before {
+ visibility: visible;
+ width: 100%;
+}
+
+.Active_link {
+  border-bottom: 2px solid white;
+}

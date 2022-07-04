@@ -1,0 +1,46 @@
+.container-page{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container-page::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url("assets/bgtlu.jpg");
+  background-repeat: no-repeat;
+  opacity: 0.2;
+}
+.container-page::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+  opacity: 0.1; 
+}
+.paper{
+  padding: 20px;
+  width: 25%;
+  z-index: 50;
+  margin-top: 40px;
+ 
+}
+.btn{
+  margin: 8px 0 
+};
+.error {
+  color: red;
+  align-self: flex-end;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 2px;
+}
+
+/* .css-1idz92c-MuiCircularProgress-svg{
+  color: white;
+} */

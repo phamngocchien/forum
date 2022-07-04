@@ -1,0 +1,21 @@
+
+.reset > ol,
+.reset > ul {
+  list-style: revert;
+  margin: revert;
+  padding: revert;
+}
+
+.reset > table {
+  border-collapse: revert;
+}
+
+.reset > h1,
+.reset > h2,
+.reset > h3,
+.reset > h4,
+.reset > h5,
+.reset > h6 {
+  font-size: revert;
+  font-weight: revert;
+}
